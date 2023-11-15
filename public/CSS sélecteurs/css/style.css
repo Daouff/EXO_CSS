@@ -1,11 +1,26 @@
 section {
     padding-bottom: 50px;
+    border-bottom: 1px;
+    border-bottom-color:black ;
 }
 
 h4:first-child {
     color: blue;
 }
 
-section:nth-child() {
-    
+section:nth-child(2) {
+    border-bottom: 5px;
+    border-bottom-color: red;
+}
+
+h3:first-child {
+    color:red;
+}
+
+ul {
+
+}
+
+a[href=""] {
+    font-size: larger;
 }
