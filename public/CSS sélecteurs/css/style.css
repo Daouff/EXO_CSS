@@ -3,7 +3,7 @@ section {
     border-bottom: black 1px solid;
 }
 
-h4:first-child {
+section:first-child>h4 {
     color: blue;
 } 
 
@@ -11,7 +11,7 @@ section:nth-child(2)>p {
     border-bottom: red 5px solid;
 }
 
-h3:first-child {
+section:nth-child(3) h3 {
     color:red;
 }
 
@@ -25,4 +25,19 @@ ul>li:nth-child(2) {
 
 section:nth-child(5)>span {
     color:blue;
+}
+
+section:nth-child(6)>img {
+    border: green 10px solid;
+    border-radius: 100%;
+}
+/** 
+img[alt=la tartine] {
+    border: 10px solid;
+    border-radius:50%
+}
+**/
+
+section:nth-child(7) p:hover {
+    color:green;
 }
