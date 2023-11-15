@@ -1,26 +1,28 @@
 section {
     padding-bottom: 50px;
-    border-bottom: 1px;
-    border-bottom-color:black ;
+    border-bottom: black 1px solid;
 }
 
 h4:first-child {
     color: blue;
-}
+} 
 
-section:nth-child(2) {
-    border-bottom: 5px;
-    border-bottom-color: red;
+section:nth-child(2)>p {
+    border-bottom: red 5px solid;
 }
 
 h3:first-child {
     color:red;
 }
 
-ul {
-
+section:nth-child(3)>h3, section:nth-child(3)>ul {
+    color:red;
 }
 
-a[href=""] {
+ul>li:nth-child(2) {
     font-size: larger;
+}
+
+section:nth-child(5)>span {
+    color:blue;
 }
